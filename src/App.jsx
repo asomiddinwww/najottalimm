@@ -79,7 +79,7 @@ const App = () => {
                     required
                     value={login}
                     onChange={(e) => setLogin(e.target.value)}
-                    type="emailqq"
+                    type="email"
                     placeholder="Loginni kiriting"
                     className="w-full px-3 py-[7px] rounded-[10px] border border-[#d9d9d9] focus:outline-none focus:border-[#52A785] focus:ring-2 focus:ring-[#52A785]/20 placeholder-gray-300 transition-all"
                   />
