@@ -5,9 +5,7 @@ const AppRoutes = () => {
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/signin" replace />} />
-
       <Route path="/signin" element={<App />} />
-
       <Route path="*" element={<Navigate to="/signin" replace />} />
     </Routes>
   );
