@@ -41,9 +41,9 @@ const App = () => {
   return (
     <div className="w-full flex flex-col md:flex-row items-center h-[100vh] overflow-hidden">
       <div className="bg hidden md:block md:w-[50%] h-full"></div>
-      <div className="log w-[50%] pb-100 mb-32">
-        <div className="pb-44">
-          <div className="box">
+      <div className="log w-[50%]">
+        <div className="w-full h-10">
+          <div className=" top-[59.5px] absolute ">
             <svg
               className="img2"
               width="202"
@@ -64,7 +64,7 @@ const App = () => {
           </div>
         </div>
         <div>
-          <div className="flex items-center justify-cente pb-12">
+          <div className="flex items-center justify-cente">
             <div className="w-full max-auto bg-white max-w-[450px]">
               <h2 className="text1 text-[#0D1B2A] text-[20px] font-bold mb-7">
                 Tizimga kirish
@@ -126,7 +126,7 @@ const App = () => {
 
                 <button
                   type="submit"
-                  className="w-full bg-[#52A785] hover:bg-[#438e71] text-white font-medium py-[8px] rounded-xl shadow-md transition-all active:scale-[0.98] mt-4"
+                  className="w-full bg-[#0db181] cursor-pointer hover:bg-[#79b49d] text-white font-medium py-[8px] rounded-xl shadow-md transition-all active:scale-[0.98] mt-4"
                 >
                   Kirish
                 </button>
