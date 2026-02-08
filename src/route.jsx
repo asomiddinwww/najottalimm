@@ -7,6 +7,7 @@ const AppRoutes = () => {
       <Route path="/" element={<Navigate to="/signin" replace />} />
       <Route path="/signin" element={<App />} />
       <Route path="*" element={<Navigate to="/signin" replace />} />
+      <Route path="/login" element={<App/>}/>
     </Routes>
   );
 };
